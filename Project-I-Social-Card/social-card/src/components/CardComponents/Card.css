@@ -4,5 +4,41 @@
 /* general styling */
 
 .cardcontainer {
-    width: 600px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 550px;
+    margin-left: 60px;
+    padding: 0;
+    
+}
+
+/*Image styling*/
+
+.cardbanner img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+/*Text styling*/
+
+.cardcontent {
+    width: 95%;
+    padding-left: 10px;
+}
+
+.cardcontent h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contentbody {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.greytext {
+    color: grey;
+    margin-top: 10px;
 }

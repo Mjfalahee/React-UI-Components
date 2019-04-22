@@ -4,7 +4,9 @@ import CardContent from './CardContent';
 import './Card.css';
 
 
+
 function CardContainer() {
+
     return (
         <div className="cardcontainer">
             <CardBanner />
@@ -12,6 +14,7 @@ function CardContainer() {
         </div>
     );
 }
+
 
 
 export default CardContainer;

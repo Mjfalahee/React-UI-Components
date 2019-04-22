@@ -9,7 +9,11 @@
     width: 550px;
     margin-left: 60px;
     padding: 0;
-    
+}
+
+.cardcontainer a {
+    text-decoration: none;
+    color: black;
 }
 
 /*Image styling*/

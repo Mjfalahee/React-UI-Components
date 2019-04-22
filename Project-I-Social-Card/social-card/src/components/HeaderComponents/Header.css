@@ -1,1 +1,48 @@
 /* All styles for your header Components live here */
+
+/* Container Styling */
+.headercontainer {
+    width: 600px;
+    display: flex;
+}
+
+
+/* Image styling */
+.imagethumbnail img {
+    width: 50px;
+}
+
+
+/* Text Styling */
+
+.HeaderTitle {
+    height: 20px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.headercontent {
+    margin-left: 10px;
+    line-height: 1.2;
+    height: 100px;
+}
+
+/* title */
+
+.HeaderTitle h4 {
+    padding-right: 5px;
+}
+
+.tag {
+    color: grey;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+/* Content */
+
+.headercontent p {
+    margin-top: 5px;
+}
+

@@ -5,7 +5,7 @@ import './Display.scss';
 function Output() {
     return (
         <div className="output">
-            0
+            <p>0</p>
         </div>
     );
 }

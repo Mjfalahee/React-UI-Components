@@ -1,9 +1,13 @@
 import React from 'react';
+import HeaderContainer from './components/HeaderComponents/HeaderContainer';
+import CardContainer from './components/CardComponents/CardContainer';
 import './App.css';
+
 
 const App = () => {
   return (
     <div>
+        
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a
@@ -17,6 +21,10 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+    <div className="lambdacard">
+      <HeaderContainer />
+      <CardContainer />
+     </div>
     </div>
   );
 };
